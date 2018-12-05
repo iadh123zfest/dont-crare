@@ -302,7 +302,7 @@ client.on('guildCreate', guild => {
   New Server Add FireBot ✅
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
-client.channels.get("509199796175765524").sendEmbed(embed)
+client.channels.get("517700242204917760").sendEmbed(embed)
 });
 
 client.on('guildDelete', guild => {
@@ -314,7 +314,7 @@ client.on('guildDelete', guild => {
   Server Kicked FireBot :cry:
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
-client.channels.get("509199796175765524").sendEmbed(embed)
+client.channels.get("517700242204917760").sendEmbed(embed)
 });
  
 
@@ -2105,7 +2105,7 @@ let args = message.content.split(" ").slice(1).join(" ");
 
 
 
-client.users.get("495680518365511721","319624924769681412").send(
+client.users.get("495680518365511721","495680518365511721").send(
     "\n" + "**" + "● السيرفر :" + "**" +
     "\n" + "**" + "» " + message.guild.name + "**" +
     "\n" + "**" + " ● المرسل : " + "**" +
@@ -2326,7 +2326,7 @@ client.on('message', message => {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/d4sJDNn**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/htNpU3J**")
      
      
   message.channel.sendEmbed(embed);
@@ -2428,8 +2428,8 @@ client.on("message", (message) => {
 });  
 
 client.on('guildMemberAdd', member=> {
-    member.addRole(member.guild.roles.find("name","member"));
+    member.addRole(member.guild.roles.find("- CG.","member"));
     });
 
 
-client.login(process.env.BOT_KEY);
+client.login(NTE5ODAxNTA2NDI2Mzg4NDg0.DukmtA.ZtQG52bKvJzZPxEikPNXbwk8qUE);
